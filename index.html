@@ -4,104 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
 </head>
 <body>
-    <div class="sidebar">
-        <div class="logo-container">
-            <div class="logo"></div>
-            <h1>Dashboard</h1>
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="logo-container">
+                <div class="logo"></div>
+                <h1>Dashboard</h1>
+            </div>
+            <div class="menu">
+                <div><i class="fa-solid fa-house"></i><p>Home</p></div>
+                <div><i class="fa-solid fa-user"></i><p>Profile</p></div>
+                <div><i class="fa-solid fa-message"></i><p>Messages</p></div>
+                <div><i class="fa-solid fa-clock-rotate-left"></i><p>History</p></div>
+                <div><i class="fa-solid fa-list-check"></i><p>Tasks</p></div>
+                <div><i class="fa-solid fa-people-group"></i><p>Communities</p></div>
+                <div><i class="fa-solid fa-gear"></i><p>Settings</p></div>
+                <div><i class="fa-solid fa-headset"></i><p>Support</p></div>            
+                <div><i class="fa-solid fa-user-lock"></i><p>Privacy</p></div>
+            </div>
         </div>
-        <div class="menu">
-            <div><i class="fa-solid fa-house"></i><p>Home</p></div>
-            <div><i class="fa-solid fa-user"></i><p>Profile</p></div>
-            <div><i class="fa-solid fa-message"></i><p>Messages</p></div>
-            <div><i class="fa-solid fa-clock-rotate-left"></i><p>History</p></div>
-            <div><i class="fa-solid fa-list-check"></i><p>Tasks</p></div>
-            <div><i class="fa-solid fa-people-group"></i><p>Communities</p></div>
-            <div><i class="fa-solid fa-gear"></i><p>Settings</p></div>
-            <div><i class="fa-solid fa-headset"></i><p>Support</p></div>            
-            <div><i class="fa-solid fa-user-lock"></i><p>Privacy</p></div>
+        <div class="header">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-bell"></i>
+                <!-- <img src="sources/raoul-droog-yMSecCHsIBc-unsplash.jpg" alt="cat wearing sunglasses"> -->
+                <p>Akash Silas</p>
+            </div>
+            <div class="welcome">
+                <!-- <img src="sources/raoul-droog-yMSecCHsIBc-unsplash.jpg" alt="cat wearing sunglasses"> -->
+                <p id="greeting">Hello there,</p>
+                <h3 id="name">Akash Silas (@silas)</h3>
+            </div>
+            <div class="buttons">
+                <div><button>New</button></div>
+                <div><button>Upload</button></div>
+                <div><button>Share</button></div>
+            </div>
         </div>
-    </div>
-    <div class="header">
-        <div class="search-container">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search">
-        </div>
-        <div class="info">
-            <i class="fa-solid fa-bell"></i>
-            <img src="sources/raoul-droog-yMSecCHsIBc-unsplash.jpg" alt="cat wearing sunglasses">
-            <p>Akash Silas</p>
-        </div>
-        <div class="welcome">
-            <img src="sources/raoul-droog-yMSecCHsIBc-unsplash.jpg" alt="cat wearing sunglasses">
-            <p id="greeting">Hello there,</p>
-            <h3 id="name">Akash Silas (@silas)</h3>
-        </div>
-        <div class="buttons">
-            <div><button>New</button></div>
-            <div><button>Upload</button></div>
-            <div><button>Share</button></div>
-        </div>
-        <div class="card-section">
-            <div id="Projects">
-                <h3 id="section-header">Your Projects</h3>
-                <div class="card">
-                    <h4 class="project-title">Event Management System</h4>
-                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                    <div class="icon-container">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-eye"></i>
-                        <i class="fa-solid fa-share"></i>
+        <div class="main-section">
+            <div class="card-section">
+                <div id="Projects">
+                    <h3 id="section-header">Your Projects</h3>
+                    <div class="card">
+                        <h4 class="project-title">Event Management System</h4>
+                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <h4 class="project-title">AI Chatbot</h4>
-                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                    <div class="icon-container">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-eye"></i>
-                        <i class="fa-solid fa-share"></i>
+                    <div class="card">
+                        <h4 class="project-title">AI Chatbot</h4>
+                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <h4 class="project-title">Language Learning Platform</h4>
-                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                    <div class="icon-container">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-eye"></i>
-                        <i class="fa-solid fa-share"></i>
+                    <div class="card">
+                        <h4 class="project-title">Language Learning Platform</h4>
+                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <h4 class="project-title">Fitness Tracking App</h4>
-                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                    <div class="icon-container">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-eye"></i>
-                        <i class="fa-solid fa-share"></i>
+                    <div class="card">
+                        <h4 class="project-title">Fitness Tracking App</h4>
+                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <h4 class="project-title">Social Media Dashboard</h4>
-                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                    <div class="icon-container">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-eye"></i>
-                        <i class="fa-solid fa-share"></i>
+                    <div class="card">
+                        <h4 class="project-title">Social Media Dashboard</h4>
+                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <h4 class="project-title">Recipe Sharing Platform</h4>
-                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                    <div class="icon-container">
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-eye"></i>
-                        <i class="fa-solid fa-share"></i>
+                    <div class="card">
+                        <h4 class="project-title">Recipe Sharing Platform</h4>
+                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
                     </div>
+            
                 </div>
-                
             </div>
             <div id="announcements-section">
                 <h3 class="section-header">Announcements</h3>
@@ -123,31 +128,30 @@
                 <h3 class="section-header">Trending</h3>
                 <div id="trending-container">
                     <div class="profile">
-                        <img src="sources/alan-king-KZv7w34tluA-unsplash.jpg" alt="Dog wearing glasses">
+                        <!-- <img src="sources/alan-king-KZv7w34tluA-unsplash.jpg" alt="Dog wearing glasses"> -->
                         <p class="username">@alan</p>
                         <p class="credit">Photo by <a href="https://unsplash.com/@alanking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">alan King</a> on <a href="https://unsplash.com/photos/KZv7w34tluA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                         </p>
                     </div>
                     <div class="profile">
-                        <img src="sources/arya-dubey-8eYI8qcEFxI-unsplash.jpg" alt="A white ghost wearing glasses">
+                        <!-- <img src="sources/arya-dubey-8eYI8qcEFxI-unsplash.jpg" alt="A white ghost wearing glasses"> -->
                         <p class="username">@arya</p>
                         <p>Photo by <a href="https://unsplash.com/@arya_dubey48?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Arya Dubey</a> on <a href="https://unsplash.com/photos/8eYI8qcEFxI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                         </p>
                     </div>
                     <div class="profile">
-                        <img src="sources/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg" alt="A pug wearing a knit sweater">
+                        <!-- <img src="sources/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg" alt="A pug wearing a knit sweater"> -->
                         <p class="username">@charles</p>
                         <p>Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/Mv9hjnEUHR4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                         </p>
                     </div>
                     <div class="profile">
-                        <img src="sources/raoul-droog-yMSecCHsIBc-unsplash.jpg" alt="A cat wearing glasses">
+                        <!-- <img src="sources/raoul-droog-yMSecCHsIBc-unsplash.jpg" alt="A cat wearing glasses"> -->
                         <p class="username">@silas</p>
                         <p>Photo by <a href="https://unsplash.com/@raouldroog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raoul Droog</a> on <a href="https://unsplash.com/photos/yMSecCHsIBc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                         </p>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
