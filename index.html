@@ -10,21 +10,18 @@
 <body>
     <div class="dashboard">
         <div class="sidebar">
-            <div class="logo-container">
-                <div class="logo"></div>
-                <h1>Dashboard</h1>
-            </div>
-            <div class="menu">
-                <div><i class="fa-solid fa-house"></i><p>Home</p></div>
-                <div><i class="fa-solid fa-user"></i><p>Profile</p></div>
-                <div><i class="fa-solid fa-message"></i><p>Messages</p></div>
-                <div><i class="fa-solid fa-clock-rotate-left"></i><p>History</p></div>
-                <div><i class="fa-solid fa-list-check"></i><p>Tasks</p></div>
-                <div><i class="fa-solid fa-people-group"></i><p>Communities</p></div>
-                <div><i class="fa-solid fa-gear"></i><p>Settings</p></div>
-                <div><i class="fa-solid fa-headset"></i><p>Support</p></div>            
-                <div><i class="fa-solid fa-user-lock"></i><p>Privacy</p></div>
-            </div>
+            <i id="dashboard-logo" class="fa-solid fa-clipboard"></i><h1>Dashboard</h1>
+            <p></p><p></p>
+            <i class="fa-solid fa-house"></i><p>Home</p>
+            <i class="fa-solid fa-user"></i><p>Profile</p>
+            <i class="fa-solid fa-message"></i><p>Messages</p>
+            <i class="fa-solid fa-clock-rotate-left"></i><p>History</p>
+            <i class="fa-solid fa-list-check"></i><p>Tasks</p>
+            <i class="fa-solid fa-people-group"></i><p>Communities</p>
+            <p></p><p></p>
+            <i class="fa-solid fa-gear"></i><p>Settings</p>
+            <i class="fa-solid fa-headset"></i><p>Support</p>
+            <i class="fa-solid fa-user-lock"></i><p>Privacy</p>
         </div>
         <div class="header">
             <div class="search-container">
@@ -47,66 +44,63 @@
                 <div><button>Share</button></div>
             </div>
         </div>
-        <div class="main-section">
-            <div class="card-section">
-                <div id="Projects">
-                    <h3 id="section-header">Your Projects</h3>
-                    <div class="card">
-                        <h4 class="project-title">Event Management System</h4>
-                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                        <div class="icon-container">
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                        </div>
+        <div id="main-section">
+            <div id="projects">
+                <h3 id="section-header">Your Projects</h3>
+                <div class="card">
+                    <h4 class="project-title">Event Management System</h4>
+                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                    <div class="icon-container">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share"></i>
                     </div>
-                    <div class="card">
-                        <h4 class="project-title">AI Chatbot</h4>
-                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                        <div class="icon-container">
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <h4 class="project-title">Language Learning Platform</h4>
-                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                        <div class="icon-container">
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <h4 class="project-title">Fitness Tracking App</h4>
-                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                        <div class="icon-container">
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <h4 class="project-title">Social Media Dashboard</h4>
-                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                        <div class="icon-container">
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <h4 class="project-title">Recipe Sharing Platform</h4>
-                        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
-                        <div class="icon-container">
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-eye"></i>
-                            <i class="fa-solid fa-share"></i>
-                        </div>
-                    </div>
-            
                 </div>
+                <div class="card">
+                    <h4 class="project-title">AI Chatbot</h4>
+                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                    <div class="icon-container">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="project-title">Language Learning Platform</h4>
+                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                    <div class="icon-container">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="project-title">Fitness Tracking App</h4>
+                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                    <div class="icon-container">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="project-title">Social Media Dashboard</h4>
+                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                    <div class="icon-container">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="project-title">Recipe Sharing Platform</h4>
+                    <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo pariatur quas? Veritatis corrupti magnam, beatae nemo, nisi velit omnis, nam molestias porro ipsa totam vitae consequatur reiciendis sequi quae.</p>
+                    <div class="icon-container">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                </div>            
             </div>
             <div id="announcements-section">
                 <h3 class="section-header">Announcements</h3>
