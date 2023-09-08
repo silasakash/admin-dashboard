@@ -21,6 +21,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+:root {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
 .dashboard {
     display: grid;
     grid-template-columns: 2fr 8fr;
@@ -44,14 +49,17 @@ time, mark, audio, video {
     font-size: 3rem;
 }
 
-#dashboard-logo {
-    font-size: 2.5rem;
-}
-
 .sidebar p {
     font-size: 1.5rem;
 }
 
+.sidebar i {
+    font-size: 1.5rem;
+}
+
+#dashboard-logo {
+    font-size: 2.5rem;
+}
 
 .header {
     grid-column: 2 / 4;
